@@ -49,7 +49,7 @@ $uuid - Uuid::uuid4();
 echo $uuid->toString();
 
 $faker = Faker\Factory::create();
-echo %faker->name() . "\n";
-echo %faker->email() . "\n";
-echo %faker->phoneNumber() . "\n";
-echo %faker->text() . "\n";
+echo $faker->name() . "\n";
+echo $faker->email() . "\n";
+echo $faker->phoneNumber() . "\n";
+echo $faker->text() . "\n";
