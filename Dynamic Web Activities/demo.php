@@ -45,7 +45,7 @@ use Ramsey\Uuid\Uuid;
 $slugify = new Slugify();
 echo $slugify->slugify("This is a new title.") . "\n";
 
-$uuid - Uuid::uuid4();
+$uuid = Uuid::uuid4();
 echo $uuid->toString();
 
 $faker = Faker\Factory::create();
